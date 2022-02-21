@@ -15,4 +15,4 @@ Press yq (yank query) to copy the formula into the clipboard.
 
 I use it in tmux in a popup:
 
-tmux display-popup -T"calc" -w50 -h22 -xC -y25 -E ./libc.sh
+bind-key -T prefix = display-popup -T"calc" -w50 -h22 -xC -y25 -E ./libc.sh
