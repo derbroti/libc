@@ -1,0 +1,16 @@
+You are probably not expecting a calculator but since you are here, let me present to you:
+
+The LIve BC - a calculator that is not just interactive, it is live!
+
+See the result while typing!
+
+Works with ANSI escape codes.
+
+Press enter to finish the formula and start a new one below.
+
+Press yy or ya to put the result (yank answer) into the clipboard (currently only pbcopy is supported).
+Press yq (yank query) to copy the formula into the clipboard.
+
+I use it in tmux in a popup:
+
+tmux display-popup -T"calc" -w50 -h22 -xC -y25 -E ./libc.sh
