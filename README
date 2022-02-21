@@ -8,6 +8,8 @@ Works with ANSI escape codes.
 
 Press enter to finish the formula and start a new one below.
 
+<ctrl>+a / <ctrl>+e are moving the cursor to line start and line end respectively.
+
 Press yy or ya to put the result (yank answer) into the clipboard (currently only pbcopy is supported).
 Press yq (yank query) to copy the formula into the clipboard.
 
